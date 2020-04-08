@@ -1,0 +1,804 @@
+Dependencies for Project 'solar_inverter', Target 'Target 1': (DO NOT MODIFY !)
+F (.\plz_work.c)(0x5E200020)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/plz_work.o -MD)
+I (devices\MKV31F51212\utilities\debug_console\fsl_debug_console.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (components\serial_manager\serial_manager.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_uart.h)(0x5E1A681C)
+I (components\uart\uart.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftm.h)(0x5E1A681C)
+I (board\clock_config.h)(0x5E1C484B)
+I (board\pin_mux.h)(0x5E1D8D40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5CEBA31A)
+F (.\devices\MKV31F51212\drivers\fsl_adc16.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_adc16.o -MD)
+I (devices\MKV31F51212\drivers\fsl_adc16.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_adc16.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_clock.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_clock.o -MD)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_common.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_common.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_dmamux.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_dmamux.o -MD)
+I (devices\MKV31F51212\drivers\fsl_dmamux.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_dmamux.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_dspi.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_dspi.o -MD)
+I (devices\MKV31F51212\drivers\fsl_dspi.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_dspi.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_dspi_edma.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_dspi_edma.o -MD)
+I (devices\MKV31F51212\drivers\fsl_dspi_edma.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_dspi.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_edma.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_dspi_edma.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_edma.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_edma.o -MD)
+I (devices\MKV31F51212\drivers\fsl_edma.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_edma.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ewm.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_ewm.o -MD)
+I (devices\MKV31F51212\drivers\fsl_ewm.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_ewm.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_flash.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_flexbus.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_flexbus.o -MD)
+I (devices\MKV31F51212\drivers\fsl_flexbus.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_flexbus.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_adapter.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_cache.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_ftfx_cache.o -MD)
+I (devices\MKV31F51212\drivers\fsl_ftfx_cache.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_controller.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_adapter.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_utilities.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_cache.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_controller.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_ftfx_controller.o -MD)
+I (devices\MKV31F51212\drivers\fsl_ftfx_controller.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_adapter.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_utilities.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_controller.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_features.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_flash.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_ftfx_flash.o -MD)
+I (devices\MKV31F51212\drivers\fsl_ftfx_flash.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_controller.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_adapter.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_utilities.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_flash.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_flexnvm.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_ftfx_flexnvm.o -MD)
+I (devices\MKV31F51212\drivers\fsl_ftfx_flexnvm.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_controller.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_adapter.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_ftfx_utilities.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_flexnvm.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftfx_utilities.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_ftm.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_ftm.o -MD)
+I (devices\MKV31F51212\drivers\fsl_ftm.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_ftm.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_gpio.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_gpio.o -MD)
+I (devices\MKV31F51212\drivers\fsl_gpio.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_gpio.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_pdb.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_pdb.o -MD)
+I (devices\MKV31F51212\drivers\fsl_pdb.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_pdb.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_pit.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_pit.o -MD)
+I (devices\MKV31F51212\drivers\fsl_pit.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_pit.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_pmc.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_pmc.o -MD)
+I (devices\MKV31F51212\drivers\fsl_pmc.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_pmc.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_port.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_rnga.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_rnga.o -MD)
+I (devices\MKV31F51212\drivers\fsl_rnga.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_rnga.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_sim.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_sim.o -MD)
+I (devices\MKV31F51212\drivers\fsl_sim.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_sim.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_smc.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_smc.o -MD)
+I (devices\MKV31F51212\drivers\fsl_smc.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_smc.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_uart.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_uart.o -MD)
+I (devices\MKV31F51212\drivers\fsl_uart.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_uart.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_uart_edma.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_uart_edma.o -MD)
+I (devices\MKV31F51212\drivers\fsl_uart_edma.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_uart.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_edma.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_uart_edma.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_vref.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_vref.o -MD)
+I (devices\MKV31F51212\drivers\fsl_vref.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_vref.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_wdog.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_wdog.o -MD)
+I (devices\MKV31F51212\drivers\fsl_wdog.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_wdog.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\drivers\fsl_lpuart.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_lpuart.o -MD)
+I (devices\MKV31F51212\drivers\fsl_lpuart.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\drivers\fsl_lpuart.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\system_MKV31F51212.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/system_mkv31f51212.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)()
+F (.\components\uart\uart.h)(0x5E1A681C)()
+F (.\components\uart\uart_adapter.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/uart_adapter.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_uart.h)(0x5E1A681C)
+I (components\uart\uart.h)(0x5E1A681C)
+F (.\components\serial_manager\serial_manager.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/serial_manager.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (components\serial_manager\serial_manager.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_uart.h)(0x5E1A681C)
+I (components\uart\uart.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_internal.h)(0x5E1A681C)
+F (.\components\serial_manager\serial_manager.h)(0x5E1A681C)()
+F (.\components\serial_manager\serial_port_internal.h)(0x5E1A681C)()
+F (.\components\serial_manager\serial_port_uart.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/serial_port_uart.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (components\serial_manager\serial_manager.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_uart.h)(0x5E1A681C)
+I (components\uart\uart.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_internal.h)(0x5E1A681C)
+F (.\components\serial_manager\serial_port_uart.h)(0x5E1A681C)()
+F (.\components\lists\generic_list.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/generic_list.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (components\lists\generic_list.h)(0x5E1A681C)
+F (.\components\lists\generic_list.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\arm\startup_MKV31F51212.s)(0x5E1A681C)(-x assembler-with-cpp --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-gdwarf-3-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG-o ./objects/startup_mkv31f51212.o)
+F (.\CMSIS\Include\arm_common_tables.h)(0x5E1A681A)()
+F (.\CMSIS\Include\arm_const_structs.h)(0x5E1A681A)()
+F (.\CMSIS\Include\arm_math.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_armcc.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_armclang_ltm.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_gcc.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_iccarm.h)(0x5E1A681A)()
+F (.\CMSIS\Include\cmsis_version.h)(0x5E1A681A)()
+F (.\CMSIS\Include\core_armv8mbl.h)(0x5E1A681A)()
+F (.\CMSIS\Include\core_armv8mml.h)(0x5E1A681A)()
+F (.\CMSIS\Include\core_armv81mml.h)(0x5E1A681A)()
+F (.\CMSIS\Include\core_cm4.h)(0x5E1A681A)()
+F (.\CMSIS\Include\mpu_armv7.h)(0x5E1A681A)()
+F (.\CMSIS\Include\mpu_armv8.h)(0x5E1A681A)()
+F (.\devices\MKV31F51212\utilities\debug_console\fsl_debug_console.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_debug_console.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5CEBA31E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEBA31A)
+I (devices\MKV31F51212\utilities\debug_console\fsl_debug_console_conf.h)(0x5E1A681C)
+I (devices\MKV31F51212\utilities\str\fsl_str.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (components\serial_manager\serial_manager.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_uart.h)(0x5E1A681C)
+I (components\uart\uart.h)(0x5E1A681C)
+I (devices\MKV31F51212\utilities\debug_console\fsl_debug_console.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\utilities\debug_console\fsl_debug_console.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\utilities\debug_console\fsl_debug_console_conf.h)(0x5E1A681C)()
+F (.\devices\MKV31F51212\utilities\fsl_assert.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_assert.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\utilities\debug_console\fsl_debug_console.h)(0x5E1A681C)
+I (components\serial_manager\serial_manager.h)(0x5E1A681C)
+I (components\serial_manager\serial_port_uart.h)(0x5E1A681C)
+I (components\uart\uart.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\utilities\str\fsl_str.c)(0x5E1A681C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/fsl_str.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5CEBA31E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\utilities\str\fsl_str.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\utilities\debug_console\fsl_debug_console_conf.h)(0x5E1A681C)
+F (.\devices\MKV31F51212\utilities\str\fsl_str.h)(0x5E1A681C)()
+F (.\board\clock_config.c)(0x5E1DA410)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/clock_config.o -MD)
+I (board\clock_config.h)(0x5E1C484B)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+F (.\board\clock_config.h)(0x5E1C484B)()
+F (.\board\pin_mux.c)(0x5E1D8D40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Include -I ./components/uart -I ./components/serial_manager -I ./components/lists -I ./devices/MKV31F51212/arm -I ./devices/MKV31F51212/drivers -I ./devices/MKV31F51212/utilities -I ./devices/MKV31F51212 -I ./devices/MKV31F51212/utilities/debug_console -I ./devices/MKV31F51212/utilities/str -I "../SPWM inverter" -I ./board-I./RTE/_Target_1-I"C:/Users/Taraz Tech1/AppData/Local/Arm/Packs/NXP/MKV31F51212_DFP/12.0.0"-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -DCPU_MKV31F512VLL12 -DDEBUG -DCPU_MKV31F512VLL12 -DFRDM_KV31F -DFREEDOM -DSERIAL_PORT_TYPE_UART="1"-o ./objects/pin_mux.o -MD)
+I (devices\MKV31F51212\drivers\fsl_common.h)(0x5E1A681C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEBA31C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEBA318)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5CEBA31A)
+I (devices\MKV31F51212\fsl_device_registers.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212.h)(0x5E1A681C)
+I (CMSIS\Include\core_cm4.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_version.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_compiler.h)(0x5E1A681A)
+I (CMSIS\Include\cmsis_armclang.h)(0x5E1A681A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5CEBA31A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5CEBA31A)
+I (devices\MKV31F51212\system_MKV31F51212.h)(0x5E1A681C)
+I (devices\MKV31F51212\MKV31F51212_features.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_clock.h)(0x5E1A681C)
+I (devices\MKV31F51212\drivers\fsl_port.h)(0x5E1A681C)
+I (board\pin_mux.h)(0x5E1D8D40)
+F (.\board\pin_mux.h)(0x5E1D8D40)()
