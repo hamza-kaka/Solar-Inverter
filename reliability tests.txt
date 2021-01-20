@@ -1,0 +1,11 @@
+Confirmation of loading points:
+- the loading point of MOD and CnV etc registers was intended to be the minimum value of the counter because of center aligned PWM.
+- this was done to synchronize the loading of appropriate and updates values into the respective registers.
+- the correct implementation was checked in the resulting sine PWM wave.
+- the frequency of the carrier signal was constant from the start to end of the sine wave. the sample points were in the starting, the end and somewhere(can be anywhere) in between.
+
+limitation of max value of switching frequency:
+- max value of hardware switching time is 300ns,
+- the current algorithm for duty cycle update takes about 8-12 us. (min value wihtout interrupts, max with interrupt which will be necessary in runtime conditions)
+- this was found out by toggling a pin on and off after each iteration of the algorithm and observing it via an oscilloscope.
+- the max switching frequency according to the existing conditions can be about 60 KHz.
