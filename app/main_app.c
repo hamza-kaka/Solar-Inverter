@@ -45,27 +45,13 @@
 int main()
 {		
   
-	// for wifi i think
-//	ConfigureTimer(30);
-//	while(1)
-//	{
-//		GPIOE->PCOR = 1<<5;
-//		startPauseTimer();
-//		GPIOE->PDOR = 1<<5;
-//		startPauseTimer();
-//	}
 
 
 
-//			#if(CLAMP)
-//				if(phaseAngleAr[a]>135 && phaseAngleAr[a]<165)//index 12 - 27
-//					DS[a] = 100;
-//				else if(phaseAngleAr[a+dvsns_hlf_wv]>315 && phaseAngleAr[a+dvsns_hlf_wv]<345)
-//					DsSecHalf[a] = 0;
-//			#endif
 
 
-// StopAcControl();
+
+
 
 
 InitModules();

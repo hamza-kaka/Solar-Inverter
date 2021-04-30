@@ -16,8 +16,8 @@
         <TargetCommonOption>
           <Device>MKV31F512VLL12</Device>
           <Vendor>NXP</Vendor>
-          <PackID>NXP.MKV31F51212_DFP.12.0.0</PackID>
-          <PackURL>http://mcuxpresso.nxp.com/cmsis_pack/repo/</PackURL>
+          <PackID>NXP.MKV31F51212_DFP.13.0.0</PackID>
+          <PackURL>https://mcuxpresso.nxp.com/cmsis_pack/repo/</PackURL>
           <Cpu>IRAM(0x1fff8000,0x8000) IRAM2(0x20000000,0x010000) IROM(0x00000000,0x080000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
